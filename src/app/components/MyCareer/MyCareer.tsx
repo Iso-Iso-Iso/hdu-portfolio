@@ -9,6 +9,7 @@ const MyCareer = () => {
       <SectionTitle title="My Career" subtitle="A lot of stories 🤓" />
       {CAREER.map((item, index) => (
         <CareerItem
+          key={index}
           number={index + 1}
           description={item.description}
           companyName={item.companyName}
