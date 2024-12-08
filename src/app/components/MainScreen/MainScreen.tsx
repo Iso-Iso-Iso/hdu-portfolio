@@ -14,7 +14,7 @@ const MainScreen = () => {
           <span className="font-thin  text-3xl">Developer</span>
         </h1>
         <p className="font-thin text-lg leading-8">
-          I'm a middle frontend developer with a solid foundation in modern
+          I am a middle frontend developer with a solid foundation in modern
           technologies and frameworks. I enjoy creating seamless and visually
           engaging user interfaces while maintaining clean and efficient code.
           My focus is on delivering high-quality, user-friendly experiences that
