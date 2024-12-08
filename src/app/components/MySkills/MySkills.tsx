@@ -12,8 +12,8 @@ const MySkills = () => {
         subtitle="Not just typing on keyboard... 🙄"
       />
       <div className="grid-cols-5 grid gap-6 auto-rows-[180px]">
-        {skills.map((item) => (
-          <Card>
+        {skills.map((_, index) => (
+          <Card key={index}>
             <CardBody></CardBody>
           </Card>
         ))}
