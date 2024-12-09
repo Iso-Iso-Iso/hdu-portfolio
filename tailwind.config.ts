@@ -13,8 +13,11 @@ const config: Config = {
       colors: {
         "font-primary": "var(--font-primary)",
         "font-primary-active": "var(--font-primary-active)",
-        "primary": "var(--primary)",
+        primary: "var(--primary)",
       },
+    },
+    container: {
+      padding: "2rem",
     },
   },
   darkMode: "class",

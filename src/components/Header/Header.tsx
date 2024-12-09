@@ -1,5 +1,12 @@
 import React from "react";
-import { Navbar, NavbarContent, NavbarItem } from "@nextui-org/react";
+import {
+  Navbar,
+  NavbarContent,
+  NavbarItem,
+  NavbarMenu,
+  NavbarMenuItem,
+  NavbarMenuToggle,
+} from "@nextui-org/react";
 import { Link } from "@nextui-org/link";
 import Logo from "@/components/Header/components/Logo";
 
@@ -13,7 +20,7 @@ const Header = () => {
   return (
     <Navbar>
       <Logo />
-      <NavbarContent justify="center">
+      <NavbarContent justify="center" className="max-lg:hidden">
         {links.map((item) => (
           <NavbarItem key={item.label}>
             <Link
@@ -25,6 +32,16 @@ const Header = () => {
           </NavbarItem>
         ))}
       </NavbarContent>
+      <NavbarMenuToggle className="lg:hidden" />
+      <NavbarMenu>
+        {links.map((item) => (
+          <NavbarMenuItem key={item.label}>
+            <Link className="w-full" href="#" size="lg">
+              {item.label}
+            </Link>
+          </NavbarMenuItem>
+        ))}
+      </NavbarMenu>
     </Navbar>
   );
 };

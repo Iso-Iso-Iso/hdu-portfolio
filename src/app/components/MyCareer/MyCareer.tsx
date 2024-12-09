@@ -2,10 +2,11 @@ import React from "react";
 import SectionTitle from "@/components/SectionTitle/SectionTitle";
 import CareerItem from "@/app/components/MyCareer/components/CareerItem";
 import { CAREER } from "@/app/components/MyCareer/constants/career";
+import Section from "@/components/Section/Section";
 
 const MyCareer = () => {
   return (
-    <section>
+    <Section>
       <SectionTitle title="My Career" subtitle="A lot of stories 🤓" />
       {CAREER.map((item, index) => (
         <CareerItem
@@ -16,7 +17,7 @@ const MyCareer = () => {
           timeOfWork={item.timeOfWork}
         />
       ))}
-    </section>
+    </Section>
   );
 };
 
