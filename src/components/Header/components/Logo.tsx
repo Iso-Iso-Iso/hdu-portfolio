@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { NavbarBrand } from "@nextui-org/react";
 
 const LOGO_TEXT = "<- It's me :)";

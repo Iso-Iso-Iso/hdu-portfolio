@@ -3,3 +3,8 @@
 @import "tailwindcss/utilities";
 
 @import "variables";
+
+html,
+body {
+  scroll-behavior: smooth;
+}

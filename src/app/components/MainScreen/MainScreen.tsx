@@ -4,7 +4,7 @@ import CatTypingImg from "@/assets/cat-typing.gif";
 
 const MainScreen = () => {
   return (
-    <section className="lg:h-[560px] flex gap-4 items-center flex-col lg:flex-row max-lg:mb-6">
+    <section className="lg:h-[560px] flex gap-4 items-center flex-col lg:flex-row max-lg:mb-6" id="about-me">
       <div className="flex-1">
         <h1 className="flex flex-col font-serif gap-2 mb-6 max-lg:text-center">
           <span className="font-thin font-serif text-5xl">Front-end</span>

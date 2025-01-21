@@ -6,7 +6,7 @@ import Section from "@/components/Section/Section";
 
 const MyCareer = () => {
   return (
-    <Section>
+    <Section id="career">
       <SectionTitle title="My Career" subtitle="A lot of stories 🤓" />
       {CAREER.map((item, index) => (
         <CareerItem

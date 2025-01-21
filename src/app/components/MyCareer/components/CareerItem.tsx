@@ -25,7 +25,7 @@ const CareerItem: FC<CareerItemProps> = ({
         </h3>
       </div>
       <div className="flex gap-4">
-        <div className="w-10 flex flex-col items-center flex-shrink-0">
+        <div className="w-10 flex flex-col items-center flex-shrink-0 max-lg:hidden">
           <hr className="border-0 border-l-2 border-primary flex-1" />
         </div>
         <div>
